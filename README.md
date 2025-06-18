@@ -8,7 +8,7 @@
   * **Wrapped around Neuro-Evolution Optimizaiton with Reinforcement Learning (NEORL) package**: PEARL is wrapped around NEORL, a single-objective optimization package  benefitting from a user-friendly API. This characteristics enables seamless integration of NEORL's function and capabilities including automated hyper-parameter tuning and parallel processing.
   * **Parallel Processing**: Built-in support for parallel evaluation of objective functions: In PEARL, each agent is associated a processor allowing MC rollout in parallel. For the classical NSGAII/III, each member of the population is evaluated in parallel before the seleciton process.
  * **Callback system**: Callback mechanism for monitoring and controlling the optimization process.
- * **Comprehensive set of examples**: Tutorial that demonstrates the use of moneorl with a suit of constrained and unconstrained classical optimiztions problems from litterature including the [dtlzX](https://ieeexplore.ieee.org/document/1007032), [cXdtlzY](https://www.scopus.com/record/display.uri?eid=2-s2.0-84905579836&origin=inward), and [ctpX](https://dl.acm.org/doi/10.5555/647889.736526) test suits.
+ * **Comprehensive set of examples**: Tutorial that demonstrates the use of pearlmoo with a suit of constrained and unconstrained classical optimiztions problems from litterature including the [dtlzX](https://ieeexplore.ieee.org/document/1007032), [cXdtlzY](https://www.scopus.com/record/display.uri?eid=2-s2.0-84905579836&origin=inward), and [ctpX](https://dl.acm.org/doi/10.5555/647889.736526) test suits.
 
 # Installation
 PEARL-MOO only requires NEORL's dependancy and the python multiprocessing package pathos.
@@ -19,12 +19,12 @@ pip install pathos
 ```
 
 # Quick Start
-Here's a simple example of how to use MP-NEORL with the PEARL algorithm. First import the libraries
+Here's a simple example of how to use PEARL-MOO with one of the PEARL algorithms. First import the libraries
 ```python
-from moneorl.utils.tools import uniform_reference_points # used to generate approprietaly spaced pareto front
-from moneorl.callbacks.neorlcalls
+from pearlmoo.utils.tools import uniform_reference_points # used to generate approprietaly spaced pareto front
+from pearlmoo.callbacks.pearlcalls
 # Import PEARL
-from moneorl.methods.pearl_clean import CreateEnvironment
+from pearlmoo.methods.pearl_clean import CreateEnvironment
 
 ```
 Then, import the multi-objectiveproblem
@@ -127,7 +127,7 @@ hyper volume PEARL  26.316084582716737
 # Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-# Examples of works using MO-NEORL
+# Examples of works using PEARL
 Contact us if you want to get added!
 ```
 @article{seurin2024physics,
@@ -168,18 +168,6 @@ doi={https://doi.org/10.1016/j.anucene.2024.110582}
 }
 
 ```
-and the software
-```
-@software{pearl2025,
-  author = {P. Seurin},
-  company = {Idaho National Laboratory},
-  title = {MO-NEORL: Multi-Objective based Optimization Library for Python},
-  year = {2025},
-  publisher = {GitHub},
-  url = {https://github.inl.gov/paul-seurin/MO-NEORL/}
-}
-```
-
 
 # Contact
 email: paul.seurin@inl.gov
