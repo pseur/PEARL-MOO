@@ -22,7 +22,7 @@ pip install pathos
 Here's a simple example of how to use PEARL-MOO with one of the PEARL algorithms. First import the libraries
 ```python
 from pearlmoo.utils.tools import uniform_reference_points # used to generate approprietaly spaced pareto front
-from pearlmoo.callbacks.pearlcalls
+from pearlmoo.callbacks.pearlmoocalls
 # Import PEARL
 from pearlmoo.methods.pearl_clean import CreateEnvironment
 
