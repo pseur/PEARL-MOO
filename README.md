@@ -170,6 +170,6 @@ doi={https://doi.org/10.1016/j.anucene.2024.110582}
 ```
 
 # Contact
-email: paul.seurin@inl.gov
+email: paseurin@alum.mit.edu, paul.seurin@inl.gov
 
 GitHub Issues: [Open an issue](https://github.com/pseur/PEARL-MOO/issues)
