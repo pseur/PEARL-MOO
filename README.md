@@ -168,6 +168,18 @@ doi={https://doi.org/10.1016/j.anucene.2024.110582}
 }
 
 ```
+and NEORL
+
+```
+@article{radaideh2023NEORL,
+author={Radaideh, M. I. and Seurin, P.  and Du, K. and Seyler, D. and Gu, X. and Wang, H. and Shirvan, K.},
+title ={NEORL: NeuroEvolution Optimization with Reinforcement Learning—Applications to carbon-free energy systems},
+year={2023},
+pages={112423},
+doi = {https://doi.org/10.1016/j.nucengdes.2023.112423.},
+journal={Nuclear Engineering and Design}
+}
+```
 
 # Contact
 email: paseurin@alum.mit.edu, paul.seurin@inl.gov
