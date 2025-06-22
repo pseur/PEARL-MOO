@@ -3,6 +3,7 @@
 #@author: Paul
 #  The following implementation of NSGA-III is adapted to NEORL and draw lots of inspiration
 #  from DEAP implementation: https://github.com/DEAP/deap/blob/master/deap/tools/emo.py#L15 
+#    Thanks to https://github.com/aims-umich/neorl, this script is modified or adapted from this repo 
 #"""
 
 import random
