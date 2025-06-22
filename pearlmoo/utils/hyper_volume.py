@@ -1,26 +1,7 @@
-#    This file is part of DEAP.
-#
-#    Copyright (C) 2010 Simon Wessing
-#    TU Dortmund University
-#
-#    In personal communication, the original authors authorized DEAP team
-#    to use this file under the Lesser General Public License.
-#
-#    You can find the original library here :
-#    http://ls11-www.cs.uni-dortmund.de/_media/rudolph/hypervolume/hv_python.zip
-#
-#    DEAP is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Lesser General Public License as
-#    published by the Free Software Foundation, either version 3 of
-#    the License, or (at your option) any later version.
-#
-#    DEAP is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-#    GNU Lesser General Public License for more details.
-#
-#    You should have received a copy of the GNU Lesser General Public
-#    License along with DEAP. If not, see <http://www.gnu.org/licenses/>.
+# External functions for multi-objective optimization
+# adapted or modified from the DEAP package: https://deap.readthedocs.io/en/master/about.html
+# Félix-Antoine Fortin, François-Michel De Rainville, Marc-André Gardner, Marc Parizeau and Christian Gagné, “DEAP: Evolutionary Algorithms Made Easy”, Journal of Machine Learning Research, pp. 2171-2175, no 13, jul 2012.
+
 
 from math import log, floor
 import random
