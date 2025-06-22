@@ -5,13 +5,13 @@
   * **Classical multiobjective heuristics-based optimization**:
   * * **Non-dominated Sorting Genetic Algorithms II and III (NSGA)**: The implemention and adaption to this package draw inspiration form our collagues at [DEAP](https://deap.readthedocs.io/en/master/). See the original papers for [NSGAII](https://www.scopus.com/record/display.uri?eid=2-s2.0-0036530772&origin=inward) and [NSGAIII](https://ieeexplore.ieee.org/document/6600851).
   * * **Constrained Non-dominated Sorting Genetic Algorithm III**: Extension of NSGA-III to deal with constrained following the seminal [paper](https://www.scopus.com/record/display.uri?eid=2-s2.0-84905579836&origin=inward).
-  * **Wrapped around Neuro-Evolution Optimizaiton with Reinforcement Learning (NEORL) package**: PEARL is wrapped around NEORL, a single-objective optimization package  benefitting from a user-friendly API. This characteristics enables seamless integration of NEORL's function and capabilities including automated hyper-parameter tuning and parallel processing.
-  * **Parallel Processing**: Built-in support for parallel evaluation of objective functions: In PEARL, each agent is associated a processor allowing MC rollout in parallel. For the classical NSGAII/III, each member of the population is evaluated in parallel before the seleciton process.
+  * **Wrapped around Neuro-Evolution Optimizaiton with Reinforcement Learning (NEORL) package**: PEARL-MOO is wrapped around NEORL, a single-objective optimization package  benefitting from a user-friendly API. This characteristics enables seamless integration of NEORL's function and capabilities including automated hyper-parameter tuning and parallel processing.
+  * **Parallel Processing**: Built-in support for parallel evaluation of objective functions: In PEARL-MOO, each agent is associated a processor allowing MC rollout in parallel. For the classical NSGAII/III, each member of the population is evaluated in parallel before the seleciton process.
  * **Callback system**: Callback mechanism for monitoring and controlling the optimization process.
  * **Comprehensive set of examples**: Tutorial that demonstrates the use of pearlmoo with a suit of constrained and unconstrained classical optimiztions problems from litterature including the [dtlzX](https://ieeexplore.ieee.org/document/1007032), [cXdtlzY](https://www.scopus.com/record/display.uri?eid=2-s2.0-84905579836&origin=inward), and [ctpX](https://dl.acm.org/doi/10.5555/647889.736526) test suits.
 
 # Installation
-PEARL-MOO only requires NEORL's dependancy and the python multiprocessing package pathos.
+PEARL-MOO only requires NEORL's dependency and the python multiprocessing package pathos.
 
 For NEORL please see the installation's instructions [here](https://neorl.readthedocs.io/en/latest/guide/detinstall.html). For pathos use pip:
 ```
@@ -24,7 +24,7 @@ Here's a simple example of how to use PEARL-MOO with one of the PEARL algorithms
 from pearlmoo.utils.tools import uniform_reference_points # used to generate approprietaly spaced pareto front
 from pearlmoo.callbacks.pearlmoocalls
 # Import PEARL
-from pearlmoo.methods.pearl_clean import CreateEnvironment
+from pearlmoo.methods.pearl import CreateEnvironment
 
 ```
 Then, import the multi-objectiveproblem
@@ -167,6 +167,18 @@ pages={110582},
 doi={https://doi.org/10.1016/j.anucene.2024.110582}
 }
 
+```
+and NEORL
+
+```
+@article{radaideh2023NEORL,
+author={Radaideh, M. I. and Seurin, P.  and Du, K. and Seyler, D. and Gu, X. and Wang, H. and Shirvan, K.},
+title ={NEORL: NeuroEvolution Optimization with Reinforcement Learning—Applications to carbon-free energy systems},
+year={2023},
+pages={112423},
+doi = {https://doi.org/10.1016/j.nucengdes.2023.112423.},
+journal={Nuclear Engineering and Design}
+}
 ```
 
 # Contact
