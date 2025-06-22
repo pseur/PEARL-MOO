@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 #"""
 #@author: paul
+#    Thanks to https://github.com/aims-umich/neorl, this script is modified or adapted from this repo 
 #"""
 
 import numpy as np
