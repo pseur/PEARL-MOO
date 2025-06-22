@@ -11,7 +11,7 @@
  * **Comprehensive set of examples**: Tutorial that demonstrates the use of pearlmoo with a suit of constrained and unconstrained classical optimiztions problems from litterature including the [dtlzX](https://ieeexplore.ieee.org/document/1007032), [cXdtlzY](https://www.scopus.com/record/display.uri?eid=2-s2.0-84905579836&origin=inward), and [ctpX](https://dl.acm.org/doi/10.5555/647889.736526) test suits.
 
 # Installation
-PEARL-MOO only requires NEORL's dependancy and the python multiprocessing package pathos.
+PEARL-MOO only requires NEORL's dependency and the python multiprocessing package pathos.
 
 For NEORL please see the installation's instructions [here](https://neorl.readthedocs.io/en/latest/guide/detinstall.html). For pathos use pip:
 ```
