@@ -10,6 +10,14 @@
  * **Callback system**: Callback mechanism for monitoring and controlling the optimization process.
  * **Comprehensive set of examples**: Tutorial that demonstrates the use of pearlmoo with a suit of constrained and unconstrained classical optimiztions problems from litterature including the [dtlzX](https://ieeexplore.ieee.org/document/1007032), [cXdtlzY](https://www.scopus.com/record/display.uri?eid=2-s2.0-84905579836&origin=inward), and [ctpX](https://dl.acm.org/doi/10.5555/647889.736526) test suits.
 
+# To Do
+* **Benchmarks**:
+* * HPMR:
+  *  PEARL script
+  *  Fuel temperature data 
+* * Add Fissio Gas release model:
+  *  calibration data
+  *  PEARL script
 # Installation
 PEARL-MOO only requires NEORL's dependency and the python multiprocessing package pathos.
 
